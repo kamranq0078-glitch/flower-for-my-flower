@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#180e12">
+  <title>A rose for you</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <main class="gift" aria-live="polite">
+    <div class="glow" aria-hidden="true"></div>
+    <div class="stage" id="stage">
+      <div class="box" id="box" aria-hidden="true">
+        <div class="box-inner"></div>
+        <div class="box-front"></div>
+        <div class="box-lid"></div>
+        <div class="paper paper-left"></div><div class="paper paper-right"></div>
+        <button class="bow-hit" id="unwrap" aria-label="Untie your gift">
+          <span class="bow-loop loop-a"></span><span class="bow-loop loop-b"></span><span class="bow-knot"></span>
+        </button>
+      </div>
+      <div class="garden" id="garden" aria-hidden="true"></div>
+      <div class="floaters" id="floaters" aria-hidden="true"></div>
+    </div>
+    <section class="caption" id="caption">
+      <p class="eyebrow" id="eyebrow">A little something, made for you</p>
+      <h1 id="line">This is for you.</h1>
+      <button class="continue" id="continue" type="button" aria-label="Continue">✦</button>
+    </section>
+    <div class="progress" aria-hidden="true"><span id="progress"></span></div>
+  </main>
+  <script src="scripts/main.js" defer></script>
+</body>
+</html>
